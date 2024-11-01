@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Riverside llano grande",
+        "latitude": 6.1507186,
+        "longitude": -75.4185127,
+        "description": "Una pista desafiante ideal para amantes del motocross. Cuenta con saltos y curvas que ponen a prueba tus habilidades.",
+        "location": "Rionegro, Antioquia",
+        "openingHours": "13:00",
+        "closingHours": "18:00",
+        "daysOpen": ["Lunes", "Martes", "Miércoles", "Jueves", "viernes"],
+        "image": "/riverside.png"
+    },
+    {
+        "name": "Pista de Motocross Guillermo Escobar Escobar",
+        "latitude": 6.3822278,
+        "longitude": -75.4747835,
+        "description": "Piste de incolmotos Yamaha del Norte, es una de las mejores pistas de motocross de la región.",
+        "location": "Girardota, Antioquia",
+        "openingHours": "08:00",
+        "closingHours": "17:00",
+        "daysOpen": ["Martes", "Jueves", "Sábado", "Domingo"],
+        "image": "/incolyamaha.jpg"
+    },
+    {
+        "name": "Pista de Motocross Rionegro",
+        "latitude": 6.1496,
+        "longitude": -75.3744,
+        "description": "Una de las mejores pistas de motocross de la región, con instalaciones adecuadas para competiciones.",
+        "location": "Rionegro, Antioquia",
+        "openingHours": "10:00",
+        "closingHours": "19:00",
+        "daysOpen": ["Miércoles", "Sábado", "Domingo"],
+        "image": "/rionegro-motocross.jpg"
+    }
+]
