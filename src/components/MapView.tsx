@@ -4,11 +4,12 @@ import React from 'react';
 import { MapContainer, TileLayer } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import Markers, { IPlace } from './Markers';
-import places from '../assets/data.json';
+import places from '../app/assets/places';
 
 interface MapViewProps {
-    onMarkerClick: (place: IPlace) => void; // Aceptar la función como prop
+    onMarkerClick: (place: IPlace) => void;
 }
+
 
 export default function MapView({ onMarkerClick }: MapViewProps) {
     return (
@@ -18,7 +19,7 @@ export default function MapView({ onMarkerClick }: MapViewProps) {
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
-                <Markers places={places} onMarkerClick={onMarkerClick} /> {/* Pasar la función aquí */}
+                <Markers places={places} onMarkerClick={onMarkerClick} /> 
             </MapContainer>
         </div>
     );

@@ -17,7 +17,7 @@ export interface IPlace {
 
 interface MarkersProps {
     places: IPlace[];
-    onMarkerClick: (place: IPlace) => void; // Aceptar la función para manejar el clic
+    onMarkerClick: (place: IPlace) => void; 
 }
 
 export default function Markers({ places, onMarkerClick }: MarkersProps) {

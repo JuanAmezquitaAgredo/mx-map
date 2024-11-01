@@ -1,4 +1,4 @@
-[
+const places = [
     {
         "name": "Riverside llano grande",
         "latitude": 6.1507186,
@@ -22,14 +22,27 @@
         "image": "/incolyamaha.jpg"
     },
     {
-        "name": "Pista de Motocross Rionegro",
-        "latitude": 6.1496,
-        "longitude": -75.3744,
-        "description": "Una de las mejores pistas de motocross de la región, con instalaciones adecuadas para competiciones.",
-        "location": "Rionegro, Antioquia",
-        "openingHours": "10:00",
-        "closingHours": "19:00",
-        "daysOpen": ["Miércoles", "Sábado", "Domingo"],
-        "image": "/rionegro-motocross.jpg"
+        "name": "PAE Para Aventura Escóbero",
+        "latitude": 6.1367001,
+        "longitude": -75.5572013,
+        "description": "Una gran pista no solo de motocross, también un lugar para explorar en cualquier vehiculo todo terreno.",
+        "location": "Envigado, Antioquia",
+        "openingHours": "08:00",
+        "closingHours": "18:00",
+        "daysOpen": ["Martes", "Miércoles", "Jueves", "viernes", "Sábado", "Domingo"],
+        "image": "/parque-aventura-escobero.jpg"
+    },
+    {
+        "name": "Biker River Medellin",
+        "latitude": 6.046647,
+        "longitude": -75.6244619,
+        "description": "Pista enfocada en enduro y velotierra",
+        "location": "Caldas, Antioquia",
+        "openingHours": "08:00",
+        "closingHours": "18:00",
+        "daysOpen": ["Martes", "Miércoles", "Jueves", "viernes", "Sábado", "Domingo"],
+        "image": "/BRM.png"
     }
-]
+];
+
+export default places;
